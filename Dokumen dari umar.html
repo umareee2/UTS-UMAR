@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Belanja</title>
+</head>
+<body>
+    <h1>Kalkulator Belanja Toko</h1>
+    <p>Website sederhana untuk menghitung total belanja dan diskon pembeli</p>
+    <form>
+        <!--Nama pembeli-->
+        <br><label for="nama">Nama Pembeli</label><br>
+        <input type="text" id="nama">
+        <!--Harga satuan-->
+        <br><label for="harga">Harga satuan</label><br>
+        <input type="text" id="harga">
+        <!--Jumlah barang-->
+        <br><label for="jumlah">Jumlah barang</label><br>
+        <input type="text" id="jumlah">
+        <!--Status pembeli-->
+        <br><label for="status">Status pembeli</label><br>
+        <input type="text" id="status">
+        <!--Tombol hitung-->
+        <br><label for="tombol">Tombol hitung</label><br>
+        <input type="number" id="tombol">
+    </form>
+    <h2>Aturan diskon</h2>
+
+    <tabel>
+        <tr>
+            <th>Subtotal belanja = Diskon</th>
+        </tr>
+
+        <br><tr>
+            <td>Kurang dari Rp50.000 = 0%</td>
+        </tr><br>
+
+        <br><tr>
+            <td>Rp50.000 sampai Rp99.000 = 5%</td>
+        </tr><br>
+
+        <br><tr>
+            <td>Rp100.00 ke atas = 10%</td>
+        </tr><br>
+
+        <br<tr>
+            <td>Status member = 5%</td>
+        </tr><br>
+    </tabel>
+    
+</body>
+</html>
